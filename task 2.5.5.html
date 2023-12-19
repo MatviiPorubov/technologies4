@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Форма участі в гуртку</title>
+    <link rel="stylesheet" href="task 2.5.5.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Форма участі в гуртку</h1>
+        <form action="#" method="post">
+            <label class="label" for="name">Введіть Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <div>
+                <label class="label" for="work">Оберіть гурток</label>
+            <ul class="list"> 
+                
+                <li class="li"> <input type="checkbox" name="work"> Програмування </li>
+                <li class="li"> <input type="checkbox" name="work"> Веб-дизайн </li>
+            </ul>
+            </div>
+
+            <div>
+                <label class="label" for="gender">Ваша стать:</label>
+                <ul  class="list">
+                
+            <li class="li"> <input type="radio" id="male" name="gender" value="Чоловіча" required> Чоловіча </li>
+            <li class="li"> <input type="radio" id="female" name="gender" value="Жіноча" required> Жіноча </li>
+        </ul>
+            </div>
+            
+
+
+            <div>
+                <label class="label" for="days">Оберіть дні занять:</label>
+                <ul class="list">
+               <select class="datalist" name="day" id="day">
+                    <option value="Понеділок">Понеділок</option>
+                    <option value="Вівторок">Вівторок</option>
+                    <option value="Середа">Середа</option>
+                    <option value="Четвер">Четвер</option>
+                    <option value="П'ятниця">П'ятниця</option>
+                </select>
+            </ul>
+            </div>
+
+
+            <button type="submit">Відправити</button>
+            <button type="reset">Очистити</button>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: pink;
+}
+
+h1 {
+    color:black;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black (0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue ;
+    color: white;
+    padding: 10px 15px;
+    border: none ;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: greenyellow ;
+}
+
+button[type="reset"] {
+    background-color: red ;
+    margin-right: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: pink;
+}
+
+h1 {
+    color:black;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black (0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue ;
+    color: white;
+    padding: 10px 15px;
+    border: none ;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: greenyellow ;
+}
+
+button[type="reset"] {
+    background-color: red ;
+    margin-right: 10px;
+}
+.li{
+    list-style: none;
+    margin:10px;
+}
+.list{
+    list-style: none;
+    display: inline-flex;
+    gap: 40px
+
+}
+.label{
+    text-align:  center;
+}
+.datalist{
+    color: black;
+    width: fit-content;
+    align-items: center;
+    margin-left:100px
+}
